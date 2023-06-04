@@ -1,0 +1,235 @@
+.cabecalho {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    background-color: #f1f1f1;
+}
+
+.center {
+    text-align: center;
+}
+
+.topo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+    max-width: 1024px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+}
+
+.topo a {
+    text-decoration: none;
+    color: #000000;
+    font-size: 15px;
+    padding: 8px;
+    animation: ease-in-out;
+    transition: 0.2s;
+}
+
+.topo nav a:hover {
+    background-color: rgba(13, 155, 108, 0.568);
+    border-radius: 50%;
+    color: #ffffffff;
+}
+
+.topo span {
+    color: #6F8DA9;
+}
+
+.nav-topo {
+    display: flex;
+    gap: 40px;
+}
+
+.nav-topo a {
+    font-size: 15px;
+}
+
+.banner {
+    background-image: url('../img/img-fundo.jpg');
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 600px;
+    margin: 70px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffffff;
+}
+.banner-quartos{
+    background-image: url('../img/img-fundo.jpg');
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 200px;
+    margin: 70px 0;
+}
+.banner div {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    max-width: 900px;
+    height: 200px;
+    border: 1px solid #ffffffff;
+    padding: 30px;
+    border-radius: 5px;
+    background-color: rgba(13, 155, 108, 0.568);
+
+}
+.listas{
+    list-style-type: disc;
+    display: flex;
+    margin: 0 auto;
+    max-width: 1024px;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    color:#3d3c3c;
+    margin:30px auto;
+    }
+    .listas li{
+        margin-bottom: 15px;
+    }
+    h6{
+        font-size: 17px;
+    }
+.qds-galeria{
+    max-width: 1024px;
+    margin:0 auto;
+    display: flex;
+    gap: 8px;
+    padding: 40px 0;
+}
+.qds-galeria img{
+    width: 33.333%;
+}
+.banner h1 {
+    font-size: 50px;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+
+h3 {
+    font-size: 26px;
+    font-weight: normal;
+    margin-bottom: 20px;
+}
+
+.seja-bem-vindo .titulo-paragrafos p {
+    line-height: 30px;
+}
+
+.quartos-opcoes {
+    max-width: 1024px;
+    display: flex;
+    padding: 20px;
+    gap: 20px;
+}
+
+.quartos-opcoes div {
+    display: flex;
+    flex-direction: column;
+    width: 33.333%;
+    border-bottom: 3px solid rgba(13, 155, 108, 0.568);
+    padding: 15px 0;
+    gap: 15px;
+}
+
+.quartos-opcoes div img {
+    width: 100%;
+}
+
+.quartos-opcoes a {
+    text-decoration: none;
+    color: #000000;
+    font-weight: 600;
+}
+.quartos-de-solteiro,
+.quartos-de-casal{
+    margin:200px 0
+}
+.iframe {
+    width: 100%;
+    margin-top: 50px;
+}
+
+.iframe iframe {
+    width: 100%;
+}
+
+.sobre-pousada .container,
+.rota .titulo-paragrafos {
+    margin: 80px auto;
+}
+
+.pousada-infos,
+.rodape-container {
+    display: flex;
+    width: 1200px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+}
+
+.pousada-infos-container {
+    display: flex;
+    width: 50%;
+    padding: 30px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.pousada-infos-img {
+    width: 30%;
+    height: 100px;
+}
+
+.pousada-infos-img img {
+    width: 100%;
+    height: 100%;
+}
+
+.pousada-infos-container div:first-of-type {
+    width: 70%;
+}
+
+.pousada-infos-container h4:first-of-type {
+    margin-bottom: 20px;
+}
+
+.rodape-container div {
+    gap: 10px;
+    display: flex;
+    padding: 10px;
+    align-items: center;
+}
+
+.rodape {
+    background-color: #49997C;
+    padding: 5px 0;
+    position: relative;
+    color: #ffffff;
+}
+
+.rodape-container {
+    gap: 20px;
+    border-bottom: 1px solid #ccc;
+    padding: 20px 0;
+    justify-content: space-evenly;
+}
+
+
+h5 {
+    font-size: 20px;
+}
+.copyright{
+    max-width: 900px;
+    margin: 0 auto;
+    margin: 60px auto;
+}
